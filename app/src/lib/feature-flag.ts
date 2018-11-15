@@ -64,7 +64,7 @@ export function enableRecurseSubmodulesFlag(): boolean {
 
 /** Should the app use the MergeConflictsDialog component and flow? */
 export function enableMergeConflictsDialog(): boolean {
-  return enableBetaFeatures()
+  return true
 }
 
 /** Should the app set protocol.version=2 for any fetch/push/pull/clone operation? */
